@@ -3,6 +3,7 @@ import {NavLink} from "react-router-dom"
 const linkStyles = {
     display: "inline-block",
     width: "50px",
+  
     padding: "12px",
     margin: "0 6px 6px",
     background: "blue",
@@ -31,6 +32,12 @@ function NavBar() {
                 exact
                 style = {linkStyles}>
                     Teas
+            </NavLink>
+            <NavLink
+               to = "/addTea"
+               exact
+               style = {linkStyles}>
+                Tea Form
             </NavLink>
         </div>
     )
