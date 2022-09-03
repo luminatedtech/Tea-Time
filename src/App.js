@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import Home from "./Home";
+import Teas from "./Teas";
 import React from "react";
 import {Route,Switch} from "react-router-dom"
 
