@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import Teas from "./Teas";
 import About from "./About";
+import TeaForm from "./TeaForm"
 import {Route,Switch} from "react-router-dom"
 import React, {useState,useEffect} from "react"
 function App() {
@@ -24,6 +25,9 @@ function App() {
         <Route exact path = "/teas">
           <Teas teas ={teas}/>
         </Route>
+        <Route exact path = "/addteas">
+          <TeaForm/>
+          </Route>
       </Switch>
     </div>
   );

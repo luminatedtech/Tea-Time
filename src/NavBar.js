@@ -34,7 +34,7 @@ function NavBar() {
                     Teas
             </NavLink>
             <NavLink
-               to = "/addTea"
+               to = "/addTeas"
                exact
                style = {linkStyles}>
                 Tea Form
