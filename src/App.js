@@ -1,10 +1,9 @@
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Teas from "./Teas";
-import React from "react";
 import About from "./About";
 import {Route,Switch} from "react-router-dom"
-import React, {useState,useEffect} from React
+import React, {useState,useEffect} from "react"
 function App() {
   const [teas,setTeas] = useState([])
   useEffect(()=>{
