@@ -1,19 +1,58 @@
 {
-  "posts": [
+  "tea": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Earl Gray",
+      "image": "https://cdn2.bigcommerce.com/server2800/59819/product_images/uploaded_images/earl-looseleaf-thumb.jpg",
+      "taste": "This British Tea is typically a black tea base flavored with oil from the rind of bergamost orange. Typically has a citrus or floral infused taste",
+      "benefits":"Boosts energy, improves immunity, and boosts metabolism"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "English Breakfast Tea",
+      "image": "https://images.accentuate.io/?image=https%3A%2F%2Fcdn.accentuate.io%2F556762038461%2F1631778356578%2FEnglish-Breakfast-SteepInstructions-400x430.jpg%3Fv%3D0&c_options=w_2160",
+      "taste": "Flavor is stronger and more robust than that of green tea. It's rich flavor may be slightly sweet, bitter, or malty. Best paired with milk and sugar.",
+      "benefits":"Many vitamins and minerals such as potassium,maganese, and Vitamin E. In addition it has a significant amount of thenanine, an amino acid that may help the drinker to relax."
+    }, 
+     {
+      "id": 3,
+      "name": "Irish Breakfast Tea",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNed_712GbTGyVgC7jQk1PdyuuRHiI5soCA&usqp=CAU",
+      "taste": "Made from Assam, a black tea grown in India, this tea is known for its strong malty flavor. Unlike it's English counterpart, Irish Breakfast Teas tends to be more robust, more finely ground, and have a higher proportion of Indian black tea leaves.",
+      "benefits":"Black teas such as these aid in digestion, reduce bloating, and sooth upset stomachs."
+    },  {
+      "id": 4,
+      "name": "Russian Caravan Tea",
+      "image": "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/529591de-0d05-45ac-94b1-1aab4fd914f0/ArtfulTea_033017-034.jpg?format=1500w",
+      "taste": "Famous for its rich and smoky flavor, this tea is an acquired taste",
+      "benefits":"High in antioxidants, heart health, reduces inflammation, and soothes headaches"
+    },  {
+      "id": 5,
+      "name": "Indian Chai",
+      "image": "https://foodess.com/wp-content/uploads/2016/11/chai-2jpg-1.jpg",
+      "taste": "Often a sweet, fragrant concoation of black tea, milk, and spices that originate from India",
+      "benefits":"Antioxidants, heart health, digestion, good for skin"
+    },
+    {
+      "id": 6,
+      "name": "Oolong Tea",
+      "image": "https://www.seriouseats.com/thmb/5USaikHiTOO9LhRs4i1i0khItHI=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__07__20150730-oolong-teas-vicky-wasik--8-46a0451ca58c4979a708fa58ef0cf127.jpg",
+      "taste": "Its taste is described as a floral, fruity with a thick mouthfeel.Known for its light 'grassy' taste.",
+      "benefits":"Yum"
+    },
+    {
+      "id": 7,
+      "name": "Darjeeling",
+      "image": "https://media.npr.org/assets/img/2016/10/04/img_0825-70-d180dbf7976f1f0dd6c226ec4942dcfaceaa1111.jpg",
+      "taste": "Known as the champagne of teas, it has a musky sweet flavor couples with citrus,mossy, and fruity flavors.",
+      "benefits":"Reduces risk of cancer, weight loss, antioxidants, stress reliever"
+    },
+    {
+      "id": 8,
+      "name": "Green Tea",
+      "image": "https://cdn-ajoff.nitrocdn.com/MfBtiKrHPKfgKNRtEhpzkYnprjWplyNI/assets/static/optimized/rev-2278b9f/wp-content/uploads/2021/06/green-tea.jpg",
+      "taste": "Its taste can include: sweet, bittersweet,nutty,fruity or even oceanic. It's taste has a wide range and usually depends on the way the leaves are prepared.",
+      "benefits":"Improves brain function, cardiovascular health, burning of fat, and antioxidants"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

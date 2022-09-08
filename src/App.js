@@ -4,8 +4,14 @@ import Teas from "./Teas";
 import React from "react";
 import About from "./About";
 import {Route,Switch} from "react-router-dom"
-
+import React, {useState,useEffect} from React
 function App() {
+  const [teas,setTeas] = useState([])
+  useEffect(()=>{
+    fetch("http://localhost:3000/tea")
+    .then((r)=>r.json())
+    .then ((teas)=>setTeas(teas))
+  },[])
   return (
     <div>
       <NavBar/>
@@ -17,7 +23,7 @@ function App() {
           <About/>
         </Route>
         <Route exact path = "/teas">
-          <Teas/>
+          <Teas teas ={teas}/>
         </Route>
       </Switch>
     </div>
