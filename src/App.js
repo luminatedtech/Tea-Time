@@ -7,6 +7,9 @@ import {Route,Switch} from "react-router-dom"
 import React, {useState,useEffect} from "react"
 function App() {
   const [teas,setTeas] = useState([])
+  function onAddTea(newTea) {
+    setTeas([...teas,newTea])
+  }
   useEffect(()=>{
     fetch("http://localhost:3000/tea")
     .then((r)=>r.json())
@@ -26,7 +29,7 @@ function App() {
           <Teas teas ={teas}/>
         </Route>
         <Route exact path = "/addteas">
-          <TeaForm/>
+          <TeaForm onAddTea={onAddTea}/>
           </Route>
       </Switch>
     </div>

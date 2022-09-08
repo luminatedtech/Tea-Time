@@ -25,3 +25,14 @@ img {
   width: 100px;
   height:100px
 }
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  background: #515da2;
+  opacity: 1;
+}
+
+.add-tea-form {
+  width: 300px;
+}
