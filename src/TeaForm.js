@@ -27,7 +27,7 @@ function handleSubmit (e){
 }
 return (
     <div className="container">
-      <form className="add-tea-form">
+      <form className="add-tea-form" onSubmit={handleSubmit}>
         <h2>Add a Tea!</h2>
         <input
           type="text"
@@ -58,9 +58,10 @@ return (
         <br />
         <input
           type="text"
-          name= 'benefits'
+          name= {benefit}
           placeholder="What kind of health benefits does it provide?"
           className="input-text"
+          onChange={(e)=>setBenefit(e.target.value)}
          
         />
         <br />
