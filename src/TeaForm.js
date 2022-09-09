@@ -43,7 +43,7 @@ return (
           name= {image}
           placeholder="Enter a teas's image URL..."
           className="input-text"
-          onChange={(e)=>setImage.target.value}
+          onChange={(e)=>setImage(e.target.value)}
          
         />
         <br />
