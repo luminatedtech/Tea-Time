@@ -9,6 +9,9 @@ function Home (){
         <div id="photoDiv">
             <img alt="cupSet" id="photo" src="https://i.ibb.co/8PVYWsf/Pink-Etsy-Shop-Banner-Template-1600x-1.png"></img>
         </div>
+        <div id="irohDiv">
+            <img alt="iroh" className="irohPhoto" src="https://i.ibb.co/Z16Cxgz/iroh-tea.png"></img>
+        </div>
         <div id="info">
             <p className="center"> This website is dedicated to informing newcomers about the rich history of tea and how it has become a worldwide beloved beverage</p>
         </div>
