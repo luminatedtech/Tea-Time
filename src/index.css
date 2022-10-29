@@ -13,6 +13,11 @@
 #irohDiv {
   position:fixed;
   right:200px;
+  bottom: 50px;
+}
+.irohPhoto {
+  height:300px;
+  width:300px;
   bottom: 100px;
 }
 .center {
