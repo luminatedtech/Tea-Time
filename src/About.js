@@ -10,7 +10,7 @@ function About () {
                 <img alt="china" src="https://chazhidao.org/sites/default/files/styles/image_in_text_1/public/2017-08/10_tangdai.jpg?itok=2fcIWVgJ"></img>
         </div>
         <div id="secondchina">
-                <img alt="china" src="https://chazhidao.org/sites/default/files/styles/image_in_text_1/public/2017-08/10_tangdai.jpg?itok=2fcIWVgJ"></img>
+                <img alt="china" src="https://chazhidao.org/sites/default/files/styles/image_in_text_1/public/2017-08/10_qingdai.jpg?itok=iLp08MF4"></img>
         </div>
         <div>
             <p> Tea is defined as an aromatic beverage that is prepared by boiling boiled water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to East Asia. This is different from the term "herbal tea" which are drinks that are not made from this leaf. They are instead infusions of fruit, leaves or other plant parts.</p>
