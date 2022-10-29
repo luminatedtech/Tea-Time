@@ -54,7 +54,7 @@ img {
   padding: 1rem;
   width: stretch;
   height: auto;
-  background: #515da2;
+
   opacity: 1;
 }
 
@@ -66,6 +66,6 @@ img {
   width:200px;
   padding:20px;
   margin: 10px 0;
-  
+  border-radius: 10px;
 
 }
