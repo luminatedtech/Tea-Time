@@ -70,11 +70,11 @@ img {
 
 }
 #firstchina {
-  position:fixed;
+  position:absolute;
   top: 90px;
   width: 200px;
 
 }
 #secondchina {
-  position: fixed;
+  position: absolute;
 }
