@@ -69,3 +69,12 @@ img {
   border-radius: 10px;
 
 }
+#firstchina {
+  position:fixed;
+  top: 90px;
+  width: 200px;
+
+}
+#secondchina {
+  position: fixed;
+}
