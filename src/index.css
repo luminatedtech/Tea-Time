@@ -9,6 +9,7 @@
   right: 500px;
   height:250px;
   width: 500px;
+  
 }
 #irohDiv {
   position:fixed;
@@ -35,13 +36,15 @@
 }
 #container {
   height: 90%;
-  width: 90%
+  width: 90%;
+  
 }
 body {
   font-family: 'Kanit', sans-serif;
   background-color: bisque;
   font-size: 22px;
-  
+  color:#515da2
+
 }
 img {
   width: 100px;
@@ -57,4 +60,12 @@ img {
 
 .add-tea-form {
   width: 300px;
+}
+
+.input-text {
+  width:200px;
+  padding:20px;
+  margin: 10px 0;
+  
+
 }

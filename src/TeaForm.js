@@ -28,7 +28,7 @@ function handleSubmit (e){
 return (
     <div className="container">
       <form className="add-tea-form" onSubmit={handleSubmit}>
-        <h2>Add a Tea!</h2>
+        <h2 style={{color:'orangered'}} className="center">Add a Tea!</h2>
         <input
           type="text"
           name= {name}
