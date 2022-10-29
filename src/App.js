@@ -15,6 +15,7 @@ function App() {
     .then((r)=>r.json())
     .then ((teas)=>setTeas(teas))
   },[])
+  console.log(teas)
   return (
     <div>
       <NavBar/>

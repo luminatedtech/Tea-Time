@@ -6,11 +6,11 @@
 #info{
   position: fixed;
   bottom: 50px;
-  right:300px;
+  right: 500px;
   height:250px;
-  width: 250px;
+  width: 500px;
 }
-#center {
+.center {
   text-align: center;
 }
 #container {
@@ -18,8 +18,10 @@
   width: 90%
 }
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-image: url(https://i.pinimg.com/originals/3f/a1/4f/3fa14f38a2d8c0871f890b0e0e636209.jpg);
+  font-family: 'Kanit', sans-serif;
+  background-color: bisque;
+  font-size: 22px;
+  
 }
 img {
   width: 100px;
