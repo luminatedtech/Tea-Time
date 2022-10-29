@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome to my Website that has all your tea need!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with the purpose of informing those who are not familiar with tea. This website 
 
 ## Available Scripts
 
