@@ -77,10 +77,14 @@ img {
 }
 #secondchina {
   position: absolute;
-  top:90px;
-  left:1300px;
+  top:30px;
+  left:1000px;
 }
 #firstchinaphoto {
   width: 300px;
   height: 150px;
+}
+#secondchinaphoto {
+  width:400px;
+  height:200px;
 }
