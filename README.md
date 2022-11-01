@@ -1,8 +1,8 @@
 # Welcome to my Website that has all your tea needs!
 
-This project was created with the purpose of informing those who are not familiar with tea. This website informs you about how tea first came into be and how it was developed into the world wide drink of choice. 
+Built with React,this project was created with the purpose of informing those who are not familiar with tea. This website informs you about how tea first came into be and how it was developed into the world wide drink of choice. 
 
-#How to naviage the site
+# How to naviage the site
 
 The site implements a navbar which allows you to go through the different components of the site. 
 
@@ -14,6 +14,18 @@ In the Tea form page, since there are so many different subsets and varieties of
 
 # What this project incoporates
 
-The project uses Route and Navlink for its routing logic as well as useState to hold the values of tea. 
+The project uses Route and Navlink for its routing logic as well as useState to hold the values of tea. The CSS that was used was made from scratch and tools such as Photoshop were used as well for the photos. 
+
+# Contact Information
+
+Name: Allen Kim
+Email: avalmercafe02@gmail.com 
+
+# Acknowledgments 
+
+Choose an Open Source License
+GitHub Emoji Cheat Sheet
+Malven's Flexbox Cheatsheet
+Malven's Grid Cheatsheet
 
 
