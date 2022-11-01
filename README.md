@@ -1,70 +1,19 @@
-# Welcome to my Website that has all your tea need!
+# Welcome to my Website that has all your tea needs!
 
-This project was created with the purpose of informing those who are not familiar with tea. This website 
+This project was created with the purpose of informing those who are not familiar with tea. This website informs you about how tea first came into be and how it was developed into the world wide drink of choice. 
 
-## Available Scripts
+#How to naviage the site
 
-In the project directory, you can run:
+The site implements a navbar which allows you to go through the different components of the site. 
 
-### `npm start`
+In our About Page, you can learn how tea was first created and the different methods that were utilized to further the evolution and taste. It's rich history dates back all the way to China and through trade and commerce, it has become a main stay good in many countries. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In the Teas page, you can browse through many different teas that will list a picture of the color, as well as the its taste and benefits. Tea is known for its various health benefits, and if you are looking for something particular such as "skin health" you can find that here!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In the Tea form page, since there are so many different subsets and varieties of tea with their own variatiions, I have included a tea form that allows people to share their favorite teas that might not be there! It is a simple form which incoporates a POST request and adds it to the list of the teas in the teas tab. 
 
-### `npm test`
+# What this project incoporates
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project uses Route and Navlink for its routing logic as well as useState to hold the values of tea. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
